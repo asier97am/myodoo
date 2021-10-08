@@ -13,3 +13,9 @@ ls -a
 git branch
 git add .
 exit
+whoami
+w
+mkdir dumps
+ls
+mv /home/dammie/Descargas/backup_db1.zip dumps/
+exit

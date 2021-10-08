@@ -1,0 +1,7 @@
+[user]
+	email = asier.aranda@educa.madrid.org
+	name = Asier Aranda
+[core]
+	editor = nano
+[credential]
+	helper = store

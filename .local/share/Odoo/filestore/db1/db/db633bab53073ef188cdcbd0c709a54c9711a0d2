@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+            
+            <rsm:CrossIndustryInvoice xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100" xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100">
+                <rsm:ExchangedDocumentContext>
+                    <ram:GuidelineSpecifiedDocumentContextParameter>
+                        <ram:ID>urn:cen.eu:en16931:2017</ram:ID>
+                    </ram:GuidelineSpecifiedDocumentContextParameter>
+                </rsm:ExchangedDocumentContext>
+
+                <rsm:ExchangedDocument>
+                    <ram:ID>INV/2021/10/0004</ram:ID>
+                    <ram:TypeCode>380</ram:TypeCode>
+                    <ram:IssueDateTime>
+                        <udt:DateTimeString format="102">20211006</udt:DateTimeString>
+                    </ram:IssueDateTime>
+                    
+                </rsm:ExchangedDocument>
+
+                <rsm:SupplyChainTradeTransaction>
+                    
+                        
+            
+            
+                <ram:IncludedSupplyChainTradeLineItem>
+                    <ram:AssociatedDocumentLineDocument>
+                        <ram:LineID>1</ram:LineID>
+                    </ram:AssociatedDocumentLineDocument>
+
+                    <ram:SpecifiedTradeProduct>
+                        
+                        <ram:SellerAssignedID>FURN_0008</ram:SellerAssignedID>
+                        <ram:Name>[FURN_0008] Small Shelf</ram:Name>
+                    </ram:SpecifiedTradeProduct>
+
+                    <ram:SpecifiedLineTradeAgreement>
+                        <ram:GrossPriceProductTradePrice>
+                            <ram:ChargeAmount currencyID="EUR">2.83</ram:ChargeAmount>
+
+                            
+                        </ram:GrossPriceProductTradePrice>
+                    </ram:SpecifiedLineTradeAgreement>
+
+                    <ram:SpecifiedLineTradeDelivery>
+                        <ram:BilledQuantity>1.0</ram:BilledQuantity>
+                    </ram:SpecifiedLineTradeDelivery>
+
+                    <ram:SpecifiedLineTradeSettlement>
+                        
+                        <ram:SpecifiedTradeSettlementLineMonetarySummation>
+                            <ram:LineTotalAmount currencyID="EUR">2.83</ram:LineTotalAmount>
+                        </ram:SpecifiedTradeSettlementLineMonetarySummation>
+                    </ram:SpecifiedLineTradeSettlement>
+
+                </ram:IncludedSupplyChainTradeLineItem>
+            
+        
+                    
+
+                    <ram:ApplicableHeaderTradeAgreement>
+                        <ram:SellerTradeParty>
+                            
+            
+                <ram:Name>Taberna de MOE</ram:Name>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>Taberna de MOE</ram:PersonName>
+                    
+                    <ram:EmailURIUniversalCommunication>
+                        <ram:URIID schemeID="SMTP">asier.aranda@educa.madrid.org</ram:URIID>
+                    </ram:EmailURIUniversalCommunication>
+                </ram:DefinedTradeContact>
+
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>28017</ram:PostcodeCode>
+                    <ram:LineOne>Ricardo Ortiz</ram:LineOne>
+                    
+                    <ram:CityName>Madrid</ram:CityName>
+                    <ram:CountryID>ES</ram:CountryID>
+                </ram:PostalTradeAddress>
+            
+        
+
+                            
+                        </ram:SellerTradeParty>
+
+                        <ram:BuyerTradeParty>
+                            
+            
+                <ram:Name>Homer</ram:Name>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>Homer</ram:PersonName>
+                    
+                    
+                </ram:DefinedTradeContact>
+
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>28017</ram:PostcodeCode>
+                    <ram:LineOne>Ricardo Ortiz</ram:LineOne>
+                    
+                    <ram:CityName>Madrid</ram:CityName>
+                    <ram:CountryID>ES</ram:CountryID>
+                </ram:PostalTradeAddress>
+            
+        
+
+                            
+                        </ram:BuyerTradeParty>
+
+                        <ram:BuyerOrderReferencedDocument>
+                            <ram:IssuerAssignedID>INV/2021/10/0004: Shop/0001</ram:IssuerAssignedID>
+                        </ram:BuyerOrderReferencedDocument>
+                    </ram:ApplicableHeaderTradeAgreement>
+
+                    <ram:ApplicableHeaderTradeDelivery>
+                        
+                    </ram:ApplicableHeaderTradeDelivery>
+
+                    <ram:ApplicableHeaderTradeSettlement>
+
+                        
+
+                        
+
+                        <ram:SpecifiedTradePaymentTerms>
+                            
+                            <ram:DueDateDateTime>
+                                <udt:DateTimeString>20211006</udt:DateTimeString>
+                            </ram:DueDateDateTime>
+                        </ram:SpecifiedTradePaymentTerms>
+
+                        <ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+                            <ram:LineTotalAmount currencyID="EUR">2.83</ram:LineTotalAmount>
+                            <ram:TaxBasisTotalAmount currencyID="EUR">2.83</ram:TaxBasisTotalAmount>
+                            <ram:TaxTotalAmount currencyID="EUR">0.00</ram:TaxTotalAmount>
+                            <ram:GrandTotalAmount currencyID="EUR">2.83</ram:GrandTotalAmount>
+                            <ram:TotalPrepaidAmount currencyID="EUR">0.00</ram:TotalPrepaidAmount>
+                            <ram:DuePayableAmount currencyID="EUR">2.83</ram:DuePayableAmount>
+                        </ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+                    </ram:ApplicableHeaderTradeSettlement>
+                </rsm:SupplyChainTradeTransaction>
+            </rsm:CrossIndustryInvoice>
+        
