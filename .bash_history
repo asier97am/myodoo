@@ -43,3 +43,16 @@ ls
 cd dumps/
 ls
 exit
+ls
+more .gitconfig 
+git status
+git add .
+git status
+git commit -am "modificado el odoo "
+git log
+git push origin master 
+exit
+ls 
+cd 
+ls
+exit
